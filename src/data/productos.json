@@ -1,0 +1,113 @@
+[
+    {
+        "id": "1",
+        "nombre": "Pimentones",
+        "descripcion": "Pimentones Orgánicos 250grs",
+        "imagen": "hortalizas/01.png",
+        "precio": 8400,
+        "stock": 200,
+        "categoria": "hortalizas"
+    },
+    {
+        "id": "2",
+        "nombre": "Remolachas",
+        "descripcion":"Remolachas Orgánicas 300grs",
+        "imagen": "hortalizas/02.png",
+        "precio": 6200,
+        "stock": 200,
+        "categoria": "hortalizas"
+    },
+    {
+        "id": "3",
+        "nombre": "Zanahorias",
+        "descripcion": "Zanahorias Orgánicas 300 grs",
+        "imagen": "hortalizas/03.png",
+        "precio": 10650,
+        "stock": 200,
+        "categoria": "hortalizas"
+    
+    },
+    {
+        "id": "4",
+        "nombre": "Tomátes",
+        "descripcion":"Tomátes Orgánicos 300 grs",
+        "imagen": "hortalizas/04.png",
+        "precio": 7300,
+        "stock":200,
+        "categoria":"hortalizas"
+    },
+    {
+        "id": "5",
+        "nombre":"Berenjenas",
+        "descripcion": "Berenjenas Orgánica 500 grs",
+        "imagen": "verduras/01.png",
+        "precio": 5500,
+        "stock": 200,
+        "categoria": "verduras"
+    },
+    {
+        "id": "6",
+        "nombre":"Brócoli",
+        "descripcion": "Brócoli Orgánico 300 grs",
+        "imagen": "verduras/02.png",
+        "precio": 2600,
+        "stock": 200,
+        "categoria": "verduras"
+    
+    },
+    {
+        "id": "7",
+        "nombre":"Cebollas de Colores",
+        "descripcion": "Cebollas Orgánicas de diferentes colores 500 grs",
+        "imagen": "verduras/03.png",
+        "precio": 5400,
+        "stock": 200,
+        "categoria": "verduras"
+
+    },
+    {
+        "id": "8",
+        "nombre":"Limones",
+        "descripcion": "Limones Orgánicos 500 grs",
+        "imagen": "frutas/01.png",
+        "precio": 4200,
+        "categoria": "frutas"
+    },
+    {
+        "id": "9",
+        "nombre":"Fresas",
+        "descripcion": "Fresas Orgnánicas 500 grs",
+        "imagen": "frutas/02.png",
+        "precio": 11700,
+        "stock": 200,
+        "categoria": "frutas"
+    },
+    {
+        "id": "10",
+        "nombre":"Naranjas",
+        "descripcion": "Naranjas Orgánicas 500 grs",
+        "imagen": "frutas/03.png",
+        "precio": 2650,
+        "stock": 200,
+        "categoria": "frutas"
+    
+    },
+    {
+        "id": "11",
+        "nombre":"Miel de Abejas",
+        "descripcion": "Miel de Abejas RAW 500 grs",
+        "imagen": "otros/01.png",
+        "precio": 35600,
+        "stock": 200,
+        "categoria": "otros"
+    },
+    {
+        "id": "12",
+        "nombre":"Mermelada de Sabores",
+        "descripcion": "Mermelada Orgánica Sabores 250 grs ",
+        "imagen": "otros/02.png",
+        "precio": 13600,
+        "stock": 200,
+        "categoria": "otros"        
+    }
+]
