@@ -71,6 +71,7 @@
         "descripcion": "Limones Orgánicos 500 grs",
         "imagen": "frutas/01.png",
         "precio": 4200,
+        "stock": 200,
         "categoria": "frutas"
     },
     {
