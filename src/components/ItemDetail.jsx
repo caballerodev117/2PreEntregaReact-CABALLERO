@@ -1,21 +1,17 @@
-import { useState } from "react";
 import ItemCount from "./ItemCount";
 
-const ItemDetail = ({ item }) => {
-  const [quantity, setQuantity] = useState(0);
-
-  const handleAddToCart = (count) => {
-    setQuantity(count);
-  };
-
+const ItemDetail = ({item}) => {
+ 
   return (
     <div className="col-md-4 mb-4" key={item.id}>
       <div className="card">
+        <a href={`/item/${item.id}`}>
         <img
           src={`../img/productos/${item.imagen}`}
           className="card-img-top"
           alt={item.nombre}
         />
+        </a>
         <div className="card-body">
           <h5 className="card-title">{item.nombre}</h5>
           <p className="card-text">{item.descripcion}</p>

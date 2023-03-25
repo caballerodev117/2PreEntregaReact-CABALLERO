@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import ItemList from './ItemList';
 import dataJson from '../data/productos.json';
 
-function ItemListContainer({ greeting }) {
+function ItemListContainer({greeting}) {
   const [productos, setProductos] = useState([]);
   const {id} = useParams ();
 
