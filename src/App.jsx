@@ -12,7 +12,7 @@ function App() {
       <Navbarorganicos />
       <Routes>
         <Route path="/" element={<ItemListContainer greeting="Bienvenido a tu mercado virtual de Orgánicos del Retiro" />} />
-        <Route path="/category/:id" element={<ItemListContainer />} />
+        <Route path="/categoria/:id" element={<ItemListContainer />} />
          <Route path="/item/:id" element={<ItemDetailContainer />} /> 
         <Route path="*" element={<Error404 />} />
       </Routes>
