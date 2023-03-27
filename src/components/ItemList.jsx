@@ -1,13 +1,14 @@
-import ItemDetail from "./ItemDetail";
+import Item from "./Item";
+import Row from 'react-bootstrap/Row';
 
 function ItemList({ productos }) {
   return (
-    <div className="row">
+    <Row xs={1} md={4} className="g-4">
       {productos.map((producto) => (
-        <ItemDetail key={producto.id} item={producto} ></ItemDetail>
+        <Item key={producto.id} producto={producto} ></Item>
       ))}
-    </div>
+    </Row>
   );
 }
 
-export default ItemList;  
+export default ItemList;

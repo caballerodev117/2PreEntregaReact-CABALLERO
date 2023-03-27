@@ -1,20 +1,29 @@
 import { Link } from "react-router-dom";
-function Item({producto}) {
-    return (
+import Card from "react-bootstrap/Card";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMagnifyingGlassPlus } from "@fortawesome/free-solid-svg-icons";
+import Col from 'react-bootstrap/Col';
 
-      <div className="card h-100">
-        <Link to={`/item/${id}`}>
-        <img className="card-img-top" src={producto.imagen} alt={producto.nombre} />
-        <div className="card-body">
-          <h4 className="card-title">{producto.nombre}</h4>
-          <p className="card-text">{producto.descripcion}</p>
-        </div>
-        <div className="card-footer">
-          <small className="text-muted">${producto.precio}</small>
-        </div>
-        </Link>
-      </div>
-    );
-  }
-  
-  export default Item;
+
+function Item({ producto }) {
+  return (
+    <Col>
+      <Card>
+        <Card.Body>
+          <Card.Img variant="top" src={`../img/productos/${producto.imagen}`}>
+          </Card.Img>
+          <Card.Title>{producto.nombre}</Card.Title>
+          <Card.Text>{producto.descripcion}</Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <Link to={`/item/${producto.id}`}>
+            <FontAwesomeIcon icon={faMagnifyingGlassPlus} beat />
+            ${producto.precio}
+          </Link>
+        </Card.Footer>
+      </Card>
+    </Col>
+  );
+}
+
+export default Item;

@@ -1,21 +1,13 @@
 import ItemCount from "./ItemCount";
+import Item from "./Item";
 
 const ItemDetail = ({item}) => {
  
   return (
     <div className="col-md-4 mb-4" key={item.id}>
       <div className="card">
-        <a href={`/item/${item.id}`}>
-        <img
-          src={`../img/productos/${item.imagen}`}
-          className="card-img-top"
-          alt={item.nombre}
-        />
-        </a>
-        <div className="card-body">
-          <h5 className="card-title">{item.nombre}</h5>
-          <p className="card-text">{item.descripcion}</p>
-          <p className="card-text font-weight-bold">${item.precio}</p>
+        <div>
+          <Item key={item.id} producto={item}></Item>
         </div>
         <div>
           <ItemCount stock={item.stock} initial={1}></ItemCount>
